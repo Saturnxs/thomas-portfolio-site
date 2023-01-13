@@ -33,17 +33,10 @@
     font-size: 20px;
     padding: 5px;
     width: 65px;
-    text-align: center;
     cursor: pointer;
 }
 
 .language-selector:hover{
     filter: var(--glow-effect);
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
-
-.light-on{
-    filter: var(--glow-effect);
-    transition: filter 0.3s ease-in-out;
-}
-

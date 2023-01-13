@@ -21,3 +21,8 @@ body {
   
   min-height: 200vh;
 }
+
+.light-on{
+  filter: var(--glow-effect);
+  transition: filter 0.3s ease-in-out;
+}

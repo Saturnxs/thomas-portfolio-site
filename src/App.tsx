@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { LeftSideBar } from "../Components/LeftSideBar/LeftSideBar";
+import { LeftSideBar } from "./Components/LeftSideBar/LeftSideBar";
 
 function App() {
 

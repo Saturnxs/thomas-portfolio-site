@@ -4,11 +4,13 @@ interface LeftSideBarProps {
     isLit: boolean;
 }
 
-function LeftSideBar({ isLit }: LeftSideBarProps) {
+const LeftSideBar: React.FC<LeftSideBarProps> = ({ isLit }) => {
 
     return (
         <div className="left-side-bar">
-            <img alt='Thomas BM logo' src='static/svg/thomas-logo.svg' className={isLit ? 'logo light-on' : 'logo'}></img>
+            <a href="https://github.com/Saturnxs">
+                <img alt='Thomas BM logo' src='static/svg/thomas-logo.svg' className={isLit ? 'logo light-on' : 'logo'}></img>
+            </a>
             <div className="social-media">
                 <a href="https://github.com/Saturnxs" target="_blank" rel="noreferrer">
                     <img alt='Github logo' src='static/svg/github-logo.svg' className={isLit ? 'light-on' : ''}></img>
