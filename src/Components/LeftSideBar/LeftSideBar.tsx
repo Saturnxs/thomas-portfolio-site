@@ -13,10 +13,10 @@ const LeftSideBar: React.FC<LeftSideBarProps> = ({ isLit }) => {
             </a>
             <div className="social-media">
                 <a href="https://github.com/Saturnxs" target="_blank" rel="noreferrer">
-                    <img alt='Github logo' src='static/svg/github-logo.svg' className={isLit ? 'light-on' : ''}></img>
+                    <img alt='Github logo' src='static/svg/github-logo.svg' className={isLit ? 'social-media-icons light-on' : 'social-media-icons'}></img>
                 </a>
                 <a href="https://www.linkedin.com/in/thomas-bermudez-mora/" target="_blank" rel="noreferrer">
-                    <img alt='Linkedin logo' src='static/svg/linkedin-logo.svg' className={isLit ? 'light-on' : ''}></img>
+                    <img alt='Linkedin logo' src='static/svg/linkedin-logo.svg' className={isLit ? 'social-media-icons light-on' : 'social-media-icons'}></img>
                 </a>
             </div>
             <select className="language-selector">
