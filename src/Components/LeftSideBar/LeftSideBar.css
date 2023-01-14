@@ -1,12 +1,11 @@
 .left-side-bar {
     padding: 30px;
-    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: -webkit-fill-available;
-}
+    height: inherit;
+  }
 
 .left-side-bar .logo{
     width: 70px;

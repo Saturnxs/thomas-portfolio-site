@@ -19,7 +19,9 @@ body {
   /* Glow effect */
   --glow-effect: drop-shadow(0 0 0.55rem rgb(229, 115, 252)) drop-shadow(0 0 0.55rem rgb(229, 115, 252));
   
-  min-height: 200vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .light-on{
