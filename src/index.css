@@ -9,6 +9,10 @@ body{
     linear-gradient(165.04deg, #292544 0%, #2F2763 50%, #292544 100%);
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 #root{
   /* Colors */
   --white: #FFFFFF;
