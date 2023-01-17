@@ -1,6 +1,6 @@
 import './SideNavbar.css';
-import { LeftSideBar } from '../LeftSideBar/LeftSideBar';
-import { RightSideBar } from '../RightSideBar/RightSideBar';
+import { LeftSideBar } from '../LeftSideBar';
+import { RightSideBar } from '../RightSideBar';
 import { useBlink } from '../../Hooks/useBlink';
 
 const SideNavbar: React.FC = () => {

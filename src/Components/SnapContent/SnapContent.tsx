@@ -1,6 +1,6 @@
 import './SnapContent.css';
 import { useBlink } from '../../Hooks/useBlink';
-import { AboutMe } from '../AboutMe/AboutMe';
+import { AboutMe } from '../AboutMe';
 
 const SnapContent: React.FC = () => {
     const [isLit] = useBlink();
