@@ -1,0 +1,22 @@
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .side-bar-repetitive-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+ }

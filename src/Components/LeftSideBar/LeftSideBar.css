@@ -1,26 +1,14 @@
 .left-side-bar {
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: inherit;
   }
 
 .left-side-bar .logo{
     width: 70px;
 }
 
-.left-side-bar .social-media{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-}
-
 .left-side-bar .social-media-icons{
     height: 35px;
+    padding: 10px;
 }
 
 .language-selector{
@@ -33,9 +21,4 @@
     padding: 5px;
     width: 65px;
     cursor: pointer;
-}
-
-.language-selector:hover{
-    filter: var(--glow-effect);
-    transition: 0.3s ease-in-out;
 }

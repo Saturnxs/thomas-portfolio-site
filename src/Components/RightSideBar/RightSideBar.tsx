@@ -7,9 +7,9 @@ interface RightSideBarProps {
 const RightSideBar: React.FC<RightSideBarProps> = ({ isLit }) => {
 
     return (
-        <div className="right-side-bar">
+        <div className="side-bar right-side-bar">
             <div className='cord-light-mode'></div>
-            <div className="planets-navigation">
+            <div className="planets-navigation side-bar-repetitive-container">
                 <a href="#me">
                     <img alt='About me navigation button' src='static/svg/saturn-icon.svg' className={isLit ? 'planets-icons light-on' : 'planets-icons'}></img>
                 </a>

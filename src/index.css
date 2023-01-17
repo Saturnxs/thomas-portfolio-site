@@ -1,12 +1,15 @@
-body {
-  background: linear-gradient(165.04deg, #292544 0%, #2F2763 50%, #292544 100%);
+body{
   margin: 0;
-  font-family: var(--main-font);
+  font-family: 'Montserrat', sans-serif;
+  background-position: 0% -10%, center;
+  background-size: 800px, cover;
+  background-repeat: no-repeat;            
+  background-image:
+    url('/public/static/images/saturn-background.png'),
+    linear-gradient(165.04deg, #292544 0%, #2F2763 50%, #292544 100%);
 }
 
 #root{
-  /* Main font */
-  --main-font: 'Montserrat';
   /* Colors */
   --white: #FFFFFF;
   --kings-dragon: #2F2763;
@@ -18,13 +21,47 @@ body {
   --pink-diamond-svg-filter: brightness(0) saturate(100%) invert(64%) sepia(47%) saturate(4856%) hue-rotate(239deg) brightness(103%) contrast(98%);
   /* Glow effect */
   --glow-effect: drop-shadow(0 0 0.55rem rgb(229, 115, 252)) drop-shadow(0 0 0.55rem rgb(229, 115, 252));
-  
-  min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
+}
+
+section{
+  height: 100vh;
+  padding: 0 350px;
+}
+
+strong{
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--pink-diamond);
+}
+
+.subtitle{
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.title{
+  color: var(--white);
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.body-text{
+  color: var(--white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .light-on{
   filter: var(--glow-effect);
-  transition: filter 0.3s ease-in-out;
+  transition: filter 0.2s ease-in-out;
+}
+
+.glowing-hover:hover{
+  filter: var(--glow-effect);
+  transition: 0.2s ease-in-out;
 }

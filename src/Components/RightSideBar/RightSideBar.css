@@ -1,8 +1,4 @@
 .right-side-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 30px;
 }
 
@@ -11,17 +7,9 @@
     height: 400px;
 }
 
-
-.right-side-bar .planets-navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 300px;
-}
-
 .right-side-bar .planets-navigation a img{
     width: 25px;
+    padding: 10px 0;
 }
 
 .right-side-bar .planets-navigation .vertical-line{

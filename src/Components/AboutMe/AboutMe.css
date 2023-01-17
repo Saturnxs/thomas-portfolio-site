@@ -1,0 +1,47 @@
+.about-me-section{
+    display: flex;
+    align-items: center;
+}
+
+.about-me-section .text-container{
+    height: 70%;
+    padding-right: 200px;
+}
+
+.about-me-section .text-container .welcome-message {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-me-section .text-container .title {
+    height: 110px;
+    margin: 15px 0;
+}
+
+.about-me-section .text-container .welcome-message img {
+    width: 50px;
+}	
+
+.about-me-section .image-container{
+    padding-right: 30px;
+    height: 70%;
+}
+
+.about-me-section .image-container div{
+    width: 30vh;
+    height: 50vh;
+}
+
+.about-me-section .image-container .image{
+    background-image: url('/public/static/images/profile-pic.jpg');
+    background-size: cover;
+}
+
+.about-me-section .image-container .frame{
+    outline: 4px solid var(--white);
+    outline-offset: -4px;
+    position: relative;
+    transform: translate(10%, -90%);
+    z-index: -1;
+}
