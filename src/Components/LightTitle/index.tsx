@@ -1,0 +1,1 @@
+export { LightTitle } from './LightTitle';

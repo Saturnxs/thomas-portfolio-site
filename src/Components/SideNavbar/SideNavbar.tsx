@@ -6,10 +6,10 @@ import { useBlink } from '../../Hooks/useBlink';
 const SideNavbar: React.FC = () => {
     const [isLit] = useBlink();
 
-    return <div className='nav'>
+    return <nav className='nav'>
         <LeftSideBar isLit={isLit}/>
         <RightSideBar isLit={isLit}/>
-    </div>
+    </nav>
 }
 
 export { SideNavbar };

@@ -1,0 +1,13 @@
+.stack-container {
+    text-align: center;
+}
+
+.stack-container .stack-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.stack-container .stack-items img{
+    height: 40px;
+}
