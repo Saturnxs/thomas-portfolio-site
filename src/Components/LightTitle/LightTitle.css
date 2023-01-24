@@ -15,9 +15,5 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-}
-
-.light-title img{
-    height: 3rem;
+    padding-bottom: 20px;
 }

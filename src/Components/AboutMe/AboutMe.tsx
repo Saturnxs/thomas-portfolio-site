@@ -17,7 +17,7 @@ const AboutMe: React.FC = () => {
                     onChange={(isVisible: boolean) => { toggleIsLit() }}
                     scrollDelay={10}
                 >
-                    <img alt='About me navigation button' src='static/svg/saturn-icon.svg' className={isLit ? 'planets-icons light-on' : 'planets-icons'}></img>
+                    <img alt='About me navigation button' src='static/svg/saturn-icon.svg' className={isLit ? 'planets-icons light-on subtitle-icon' : 'planets-icons subtitle-icon'}></img>
                 </VisibilitySensor>
                 <h2 className='subtitle'>My name is Thomas!</h2>
             </div>
@@ -25,7 +25,7 @@ const AboutMe: React.FC = () => {
             <p className={isLit ? 'title light-on' : 'title'}>
                 <Typed
                     strings={[
-                        "Full Stack Developer",
+                        "Full Stack Software Developer",
                         "Excellence Student at UCenfotec",
                         "Ambassador at UCenfotec",
                         "Let's craft something great together!"

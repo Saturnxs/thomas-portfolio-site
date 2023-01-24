@@ -40,15 +40,7 @@ section{
 
 strong{
   font-weight: 600;
-  font-size: 20px;
   color: var(--pink-diamond);
-}
-
-.subtitle{
-  color: var(--white);
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 1;
 }
 
 .title{
@@ -56,14 +48,33 @@ strong{
   font-weight: 800;
   font-size: 3rem;
   line-height: 1;
+  margin: 0;
+}
+
+.title-icon{
+  height: 3rem;
+  margin: 0 25px;
+}
+
+.subtitle{
+  color: var(--white);
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle-icon{
+  height: 2rem;
+  margin: 0 15px;
 }
 
 .body-text{
   color: var(--white);
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
+  margin: 5px 0;
 }
 
 .light-on{
@@ -74,4 +85,33 @@ strong{
 .glowing-hover:hover{
   filter: var(--glow-effect);
   transition: 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px){
+  section{
+    padding: 0 40px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .title-icon{
+    height: 1.5rem;
+    margin: 0 15px;
+  }
+
+  .subtitle{
+    font-size: 1rem;
+  }
+
+  .subtitle-icon{
+    height: 1rem;
+  }
+
+  .body-text{
+    font-size: 0.7rem;
+  }
+
 }
