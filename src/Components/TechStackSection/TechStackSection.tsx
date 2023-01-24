@@ -1,9 +1,9 @@
-import './TechStack.css';
+import './TechStackSection.css';
 import { TechnologiesList } from './TechnologiesList';
 import { LightTitle } from '../LightTitle';
 import { StackContainer } from '../StackContainer';
 
-const TechStack: React.FC = () => {
+const TechStackSection: React.FC = () => {
     return <section className='tech-stack-section' id='stack'>
         <LightTitle
             title='stack.'
@@ -22,4 +22,4 @@ const TechStack: React.FC = () => {
     </section>
 }
 
-export { TechStack }
+export { TechStackSection }

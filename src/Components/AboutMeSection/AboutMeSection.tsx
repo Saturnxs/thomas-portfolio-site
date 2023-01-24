@@ -1,11 +1,11 @@
+import './AboutMeSection.css';
 import { useBlink } from '../../Hooks/useBlink';
-import './AboutMe.css';
 import Typed from "react-typed"
 import VisibilitySensor from 'react-visibility-sensor';
 
 
 
-const AboutMe: React.FC = () => {
+const AboutMeSection: React.FC = () => {
 
     const [isLit, toggleIsLit] = useBlink();
 
@@ -48,4 +48,4 @@ const AboutMe: React.FC = () => {
     </section>
 }
 
-export { AboutMe }
+export { AboutMeSection }

@@ -1,5 +1,5 @@
 import './StackContainer.css';
-import { ITechnology } from '../TechStack/TechnologiesList';
+import { ITechnology } from '../TechStackSection/TechnologiesList';
 
 const StackContainer: React.FC<ITechnology> = ({ field, technologies }) => {
     return <div className='stack-container'>

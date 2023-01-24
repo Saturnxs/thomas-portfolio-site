@@ -1,12 +1,13 @@
 import './SnapContent.css';
-import { AboutMe } from '../AboutMe';
-import { TechStack } from '../TechStack';
+import { AboutMeSection } from '../AboutMeSection';
+import { TechStackSection } from '../TechStackSection';
+
 
 const SnapContent: React.FC = () => {
     
     return <main className='snap-main-container'>
-        <AboutMe />
-        <TechStack />
+        <AboutMeSection />
+        <TechStackSection/>
     </main>
 }
 
