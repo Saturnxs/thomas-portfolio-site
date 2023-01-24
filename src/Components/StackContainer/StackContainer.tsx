@@ -1,19 +1,15 @@
 import './StackContainer.css';
+import { ITechnology } from '../TechStack/TechnologiesList';
 
-interface StackContainerProps {
-    title: string;
-    technologiesList: {
-        name: string;
-        icon: string;
-    }[];
-}
-
-const StackContainer: React.FC<StackContainerProps> = ({ title, technologiesList }) => {
+const StackContainer: React.FC<ITechnology> = ({ field, technologies }) => {
     return <div className='stack-container'>
-        <h2 className='subtitle'>{title}</h2>
-        <div className='stack-items'>
-            {technologiesList.map((technology, index) => {
-                return <img src={technology.icon} alt={technology.name} key={index} />
+        <h2 className='subtitle'>{field}</h2>
+        <div className='stack-items-container'>
+            {technologies.map((technology, index) => {
+                return <div className='stack-item' key={index}>
+                    <img src={technology.icon} alt={technology.name} />
+                    <span className='body-text'>{technology.name}</span>
+                </div>
             })}
         </div>
     </div>

@@ -1,5 +1,5 @@
 .right-side-bar {
-    padding: 0 30px;
+    padding: 0 28px;
 }
 
 .right-side-bar .cord-light-mode{
@@ -8,8 +8,8 @@
 }
 
 .right-side-bar .planets-navigation a img{
-    width: 25px;
-    padding: 10px 0;
+    width: 28px;
+    padding: 12px 0;
 }
 
 .right-side-bar .planets-navigation .vertical-line{

@@ -46,16 +46,17 @@
     .about-me-section {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
     }
 
     .about-me-section .text-container {
         padding-right: 0;
         height: fit-content;
+        padding-bottom: 16px;
     }
 
     .about-me-section .text-container .title {
-       height: 3rem;
+        height: 3rem;
+        padding: 12px 0;
     }
 
     .about-me-section .image-container {
@@ -64,8 +65,8 @@
     }
 
     .about-me-section .image-container div{
-        width: 15vh;
-        height: 25vh;
+        width: 16vh;
+        height: 26vh;
     }
 
 }

@@ -14,8 +14,8 @@ const TechStack: React.FC = () => {
             {TechnologiesList.map((technology, index) => {
                 return <StackContainer
                     key={index}
-                    title={technology.field}
-                    technologiesList={technology.technologies}
+                    field={technology.field}
+                    technologies={technology.technologies}
                 />
             })}
         </div>

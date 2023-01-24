@@ -1,4 +1,4 @@
-interface Technology {
+interface ITechnology {
     field: string,
     technologies: {
         name: string;
@@ -6,7 +6,7 @@ interface Technology {
     }[];
 }
 
-const TechnologiesList: Technology[] = [
+const TechnologiesList: ITechnology[] = [
     {
         field: 'Design & Prototype',
         technologies: [
@@ -40,7 +40,7 @@ const TechnologiesList: Technology[] = [
                 icon: 'static/svg/angular-icon.svg'
             },
             {
-                name: 'JavaScript',
+                name: 'JavaScript (ES6+)',
                 icon: 'static/svg/javascript-icon.svg'
             },
             {
@@ -102,5 +102,5 @@ const TechnologiesList: Technology[] = [
     }
 ];
 
-
+export type { ITechnology };
 export { TechnologiesList };

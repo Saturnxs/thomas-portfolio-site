@@ -6,7 +6,7 @@ html {
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-position: 0% -10%, center;
+  background-position: 0% 20%, center;
   background-size: 800px, cover;
   background-repeat: no-repeat;            
   background-image:
@@ -34,7 +34,7 @@ body::-webkit-scrollbar{
 
 section{
   height: 100vh;
-  padding: 0 350px;
+  padding: 0 36vh;
   scroll-snap-align: start;
 }
 
@@ -53,19 +53,19 @@ strong{
 
 .title-icon{
   height: 3rem;
-  margin: 0 25px;
+  margin: 0 24px;
 }
 
 .subtitle{
   color: var(--white);
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .subtitle-icon{
-  height: 2rem;
-  margin: 0 15px;
+  height: 1.5rem;
+  margin: 0 12px;
 }
 
 .body-text{
@@ -74,7 +74,7 @@ strong{
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .light-on{
@@ -90,7 +90,7 @@ strong{
 
 @media screen and (max-width: 768px){
   section{
-    padding: 0 40px;
+    padding: 40px 40px 0 40px;
   }
 
   .title {
@@ -99,15 +99,15 @@ strong{
 
   .title-icon{
     height: 1.5rem;
-    margin: 0 15px;
+    margin: 0 12px;
   }
 
   .subtitle{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .subtitle-icon{
-    height: 1rem;
+    height: 0.9rem;
   }
 
   .body-text{

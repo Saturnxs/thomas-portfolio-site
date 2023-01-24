@@ -1,6 +1,17 @@
 .tech-stack-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 30px;
+}
+
+@media screen and (min-width: 320px) {
+    .tech-stack-container { 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vh;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .tech-stack-container { 
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4vh;
+    }
 }
