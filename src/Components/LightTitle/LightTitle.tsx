@@ -1,14 +1,10 @@
-import { useBlink } from '../../Hooks/useBlink';
 import './LightTitle.css';
+import { useBlink } from '../../Hooks/useBlink';
+import { ILightTitle } from '../../Interfaces/ILightTitle';
 import VisibilitySensor from 'react-visibility-sensor';
 
-interface LightTitleProps {
-    title: string;
-    icon: string;
-    text?: JSX.Element;
-}
 
-const LightTitle: React.FC<LightTitleProps> = ({ title, icon, text }) => {
+const LightTitle: React.FC<ILightTitle> = ({ title, icon, text }) => {
 
     const [isLit, toggleIsLit] = useBlink();
 

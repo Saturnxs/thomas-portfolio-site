@@ -1,0 +1,28 @@
+.resource-item{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    cursor: pointer;
+}
+
+.resource-item .resource-icon{
+    height: 50px;
+}
+
+.resource-item .resource-text{
+    z-index: 1;
+}
+
+.resource-item .resource-text p{
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .resource-item{
+        gap: 24px;
+    }
+    
+    .resource-item .resource-icon{
+        height: 36px;
+    }
+}

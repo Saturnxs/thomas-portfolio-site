@@ -1,10 +1,8 @@
 import './RightSideBar.css';
+import { IRightSideBar } from '../../Interfaces/IRightSideBar';
 
-interface RightSideBarProps {
-    isLit: boolean;
-}
 
-const RightSideBar: React.FC<RightSideBarProps> = ({ isLit }) => {
+const RightSideBar: React.FC<IRightSideBar> = ({ isLit }) => {
 
     return <div className="side-bar right-side-bar">
         <div className='cord-light-mode'></div>

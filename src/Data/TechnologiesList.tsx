@@ -1,10 +1,4 @@
-interface ITechnology {
-    field: string,
-    technologies: {
-        name: string;
-        icon: string;
-    }[];
-}
+import { ITechnology } from "../Interfaces/ITechnology";
 
 const TechnologiesList: ITechnology[] = [
     {
@@ -102,5 +96,4 @@ const TechnologiesList: ITechnology[] = [
     }
 ];
 
-export type { ITechnology };
 export { TechnologiesList };

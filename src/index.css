@@ -38,6 +38,10 @@ section{
   scroll-snap-align: start;
 }
 
+a{
+  text-decoration: none;
+}
+
 strong{
   font-weight: 600;
   color: var(--pink-diamond);
@@ -111,6 +115,10 @@ strong{
   }
 
   .body-text{
+    font-size: 0.7rem;
+  }
+
+  strong{
     font-size: 0.7rem;
   }
 

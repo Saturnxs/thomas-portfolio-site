@@ -1,10 +1,7 @@
 import './LeftSideBar.css';
+import { ILeftSideBar } from '../../Interfaces/ILeftSideBar';
 
-interface LeftSideBarProps {
-    isLit: boolean;
-}
-
-const LeftSideBar: React.FC<LeftSideBarProps> = ({ isLit }) => {
+const LeftSideBar: React.FC<ILeftSideBar> = ({ isLit }) => {
 
     return <div className="side-bar left-side-bar">
         <a href="https://github.com/Saturnxs">

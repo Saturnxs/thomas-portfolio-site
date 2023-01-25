@@ -1,5 +1,5 @@
 import './TechStackSection.css';
-import { TechnologiesList } from './TechnologiesList';
+import { TechnologiesList } from '../../Data/TechnologiesList';
 import { LightTitle } from '../LightTitle';
 import { StackContainer } from '../StackContainer';
 
@@ -14,8 +14,7 @@ const TechStackSection: React.FC = () => {
             {TechnologiesList.map((technology, index) => {
                 return <StackContainer
                     key={index}
-                    field={technology.field}
-                    technologies={technology.technologies}
+                    {...technology}
                 />
             })}
         </div>
