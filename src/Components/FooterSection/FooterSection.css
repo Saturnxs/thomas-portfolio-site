@@ -1,0 +1,25 @@
+footer{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-logo{
+    height: 30vh;
+}
+
+footer .footer-signature{
+    margin: 5vh 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+footer .footer-signature a{
+    text-decoration: none;
+    color: var(--pink-diamond);
+    font-weight: 600;
+}

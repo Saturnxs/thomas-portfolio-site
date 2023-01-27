@@ -81,6 +81,11 @@ strong{
   margin: 8px 0;
 }
 
+.body-icon{
+  height: 1rem;
+  margin: 0 12px;
+}
+
 .light-on{
   filter: var(--glow-effect);
   transition: filter 0.2s ease-in-out;

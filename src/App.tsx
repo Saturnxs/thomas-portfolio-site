@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { SideNavbar } from "./Components/SideNavbar";
 import { SnapContent } from "./Components/SnapContent";
 import { MobileNavbar } from "./Components/MobileNavbar";
+import { FooterSection } from "./Components/FooterSection";
 
 const App: React.FC = () => {
 
@@ -22,6 +23,7 @@ const App: React.FC = () => {
     <>
       {isResponsive ? <MobileNavbar /> : <SideNavbar />}
       <SnapContent />
+      <FooterSection />
     </>
   );
 }
