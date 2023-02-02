@@ -1,7 +1,7 @@
 import './StackContainer.css';
-import { ITechnology } from '../../Interfaces/ITechnology';
+import { ITechnologyStack } from '../../Interfaces/ITechnologyStack';
 
-const StackContainer: React.FC<ITechnology> = ({ field, technologies }) => {
+const StackContainer: React.FC<ITechnologyStack> = ({ field, technologies }) => {
     return <div className='stack-container'>
         <h2 className='subtitle'>{field}</h2>
         <div className='stack-items-container'>

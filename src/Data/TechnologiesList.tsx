@@ -1,6 +1,6 @@
-import { ITechnology } from "../Interfaces/ITechnology";
+import { ITechnologyStack } from "../Interfaces/ITechnologyStack";
 
-const TechnologiesList: ITechnology[] = [
+const TechnologiesList: ITechnologyStack[] = [
     {
         field: 'Design & Prototype',
         technologies: [
