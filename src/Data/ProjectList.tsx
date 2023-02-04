@@ -2,11 +2,61 @@ import { IProject } from "../Interfaces/IProject";
 
 const ProjectList: IProject[] = [
     {
+        title: "----",
+        subtitle: "A React Front End Project",
+        year: "2022",
+        icon: "static/svg/thomas-logo.svg",
+        banner: "static/banners/crafting-to-dos-banner.png",
+        color: "#A04CC1",
+        fontColor: "#FFFFFF",
+        stack: [
+            {
+                name: "React",
+                icon: "static/svg/react-icon.svg"
+            },
+            {
+                name: "JavaScript",
+                icon: "static/svg/javascript-icon.svg"
+            },
+            {
+                name: "Git",
+                icon: "static/svg/git-icon.svg"
+            },
+            {
+                name: "GitHub",
+                icon: "static/svg/github-icon.svg"
+            }
+        ],
+        shortDescription: "A React front end project for a to do list app.",
+        description: <>
+            <h2 className="subtitle">About.</h2>
+            <p className="body-text">Crafting To Do’s is an app created with React and JavaScript (JSX) that allows you to have your tasks organized. It’s a front end app, using local storage for the to-dos. Design based in my Personal Brand Book. Check it out!</p>
+        </>,
+        images: [],
+        links: [
+            {
+                media: "Website",
+                icon: "static/svg/web-icon.svg",
+                title: "Click here to test it live!",
+                text: "saturnxs.github.io/Crafting-ToDos",
+                link: "https://saturnxs.github.io/Crafting-ToDos/"
+            },
+            {
+                media: "GitHub",
+                icon: "static/svg/github-icon.svg",
+                title: "Check out the repository on GitHub!",
+                text: "github.com/Saturnxs/Crafting-ToDos",
+                link: "https://github.com/Saturnxs/Crafting-ToDos"
+            }
+
+        ]
+    },
+    {
         title: "Crafting To Do’s",
         subtitle: "A React Front End Project",
         year: "2022",
         icon: "static/svg/thomas-logo.svg",
-        banner: "static/img/crafting-to-dos-banner.png",
+        banner: "static/banners/crafting-to-dos-banner.png",
         color: "#A04CC1",
         fontColor: "#FFFFFF",
         stack: [
@@ -56,7 +106,7 @@ const ProjectList: IProject[] = [
         subtitle: "2021 Graduation Project",
         year: "2021",
         icon: "static/svg/atlas-icon.svg",
-        banner: "static/img/atlas-banner.png",
+        banner: "static/banners/atlas-banner.png",
         color: "#FFDC40",
         fontColor: "#000000",
         stack: [
@@ -110,7 +160,7 @@ const ProjectList: IProject[] = [
         subtitle: "Expotec 2019 Winning Project",
         year: "2019",
         icon: "static/svg/wonder-icon.svg",
-        banner: "static/img/wonder-banner.png",
+        banner: "static/banners/wonder-banner.png",
         color: "#3D2B72",
         fontColor: "#FFFFFF",
         stack: [

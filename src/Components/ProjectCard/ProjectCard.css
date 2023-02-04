@@ -1,0 +1,16 @@
+.project-card{
+    height: 25vh;
+    width: 40vh;
+}
+
+.project-card-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.project-card-hover{
+    background-color: var(--deep-space);
+    position: absolute;
+}
